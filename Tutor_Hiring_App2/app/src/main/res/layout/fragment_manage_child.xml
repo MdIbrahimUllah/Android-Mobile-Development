@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/manage_child_fragment_msg_text_view"
+        android:layout_width="303dp"
+        android:layout_height="50dp"
+        android:text="Please select for a child to"
+        android:textAlignment="center"
+        android:textColor="@color/purple_500"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.176" />
+
+    <ImageButton
+        android:id="@+id/add_child_button"
+        android:layout_width="139dp"
+        android:layout_height="50dp"
+        android:contentDescription="@string/add_child_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.143"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.372"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+    <ImageButton
+        android:id="@+id/view_child_button"
+        android:layout_width="139dp"
+        android:layout_height="50dp"
+        android:contentDescription="@string/view_child_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.425"
+        app:layout_constraintStart_toEndOf="@+id/add_child_button"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.372"
+        app:srcCompat="@android:drawable/ic_menu_view" />
+
+    <TextView
+        android:id="@+id/manage_child_fragment_add_text_view"
+        android:layout_width="114dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="20dp"
+        android:text="Add"
+        android:textAlignment="center"
+        android:textColor="@color/purple_500"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/manage_child_fragment_update_text_view"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="@+id/add_child_button"
+        app:layout_constraintTop_toBottomOf="@+id/add_child_button" />
+
+    <TextView
+        android:id="@+id/manage_child_fragment_update_text_view"
+        android:layout_width="167dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:text="View, Update, Delete"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/purple_500"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/view_child_button"
+        app:layout_constraintTop_toBottomOf="@+id/view_child_button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TutorRegisterActivity">
+
+    <LinearLayout
+        android:layout_width="315dp"
+        android:layout_height="50dp"
+        android:layout_gravity="top|center_horizontal"
+        android:orientation="horizontal">
+
+
+    <TextView
+        android:id="@+id/tutor_register_msg_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:text="@string/tutor_register_msg_text_view"
+        android:textAlignment="center"
+        android:textColor="@color/teal_700"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="320dp"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tutor_first_name_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tutor_first_name_text_view" />
+
+        <EditText
+            android:id="@+id/tutor_first_name_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/tutor_first_name_edit_text" />
+
+        <TextView
+            android:id="@+id/tutor_last_name_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tutor_last_name_text_view" />
+
+        <EditText
+            android:id="@+id/tutor_last_name_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/tutor_last_name_edit_text" />
+
+        <TextView
+            android:id="@+id/tutor_civic_number_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tutor_civic_number_text_view" />
+
+        <EditText
+            android:id="@+id/tutor_civic_number_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/tutor_civic_number_edit_text" />
+
+        <TextView
+            android:id="@+id/tutor_street_name_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tutor_street_name_text_view" />
+
+        <EditText
+            android:id="@+id/tutor_street_name_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/tutor_street_name_edit_text" />
+
+        <TextView
+            android:id="@+id/tutor_app_number_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tutor_app_number_text_view" />
+
+        <EditText
+            android:id="@+id/tutor_app_number_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/tutor_app_number_edit_text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="3dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tutor_city_name_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tutor_city_name_text_view"/>
+
+    <EditText
+        android:id="@+id/tutor_city_name_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/tutor_city_name_edit_text"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/tutor_province_name_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tutor_province_name_text_view"/>
+
+    <EditText
+        android:id="@+id/tutor_province_name_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/tutor_province_name_edit_text"/>
+
+    <TextView
+        android:id="@+id/tutor_postal_code_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tutor_postal_code_text_view"/>
+
+    <EditText
+        android:id="@+id/tutor_postal_code_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/tutor_postal_code_edit_text"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="320dp"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="top|right"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tutor_country_name_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tutor_country_name_text_view"/>
+
+    <EditText
+        android:id="@+id/tutor_country_name_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/tutor_country_name_edit_text"/>
+
+    <TextView
+        android:id="@+id/tutor_tel_number_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tutor_tel_number_text_view"/>
+
+    <EditText
+        android:id="@+id/tutor_tel_number_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/tutor_tel_number_edit_text"/>
+
+    <TextView
+        android:id="@+id/tutor_subj_name_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tutor_subj_name_text_view"/>
+
+    <EditText
+        android:id="@+id/tutor_subj_name_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/tutor_subj_name_edit_text"/>
+
+    <TextView
+        android:id="@+id/tutor_hour_fees_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tutor_hour_fees_text_view"/>
+
+    <EditText
+        android:id="@+id/tutor_hour_fees_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/tutor_hour_fees_edit_text"/>
+
+    <TextView
+        android:id="@+id/tutor_experience_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tutor_experience_text_view"/>
+
+    <EditText
+        android:id="@+id/tutor_experience_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/tutor_experience_edit_text"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/tutor_activity_register_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tutor_activity_register_button"/>
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FindTutorActivity">
+
+    <EditText
+        android:id="@+id/find_tutor_activity_search_edit_text"
+        android:layout_width="311dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/find_tutor_activity_search_edit_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.06" />
+
+    <ScrollView
+        android:id="@+id/find_tutor_activityList_scroll"
+        android:layout_width="342dp"
+        android:layout_height="168dp"
+        android:layout_marginTop="20dp"
+        android:fillViewport="true"
+        app:layout_constraintEnd_toEndOf="@+id/find_tutor_activity_search_edit_text"
+        app:layout_constraintStart_toStartOf="@+id/find_tutor_activity_search_edit_text"
+        app:layout_constraintTop_toBottomOf="@+id/find_tutor_activity_search_edit_text">
+
+        <TextView
+            android:id="@+id/find_tutor_activity_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="@string/find_tutor_activity_text_view" />
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/tutor_first_name_text_view"
+        android:layout_width="104dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="5dp"
+        android:text="@string/tutor_first_name_text_view"
+        app:layout_constraintEnd_toStartOf="@+id/tutor_first_name_edit_text"
+        app:layout_constraintStart_toStartOf="@+id/find_tutor_activityList_scroll"
+        app:layout_constraintTop_toBottomOf="@+id/find_tutor_activityList_scroll" />
+
+    <EditText
+        android:id="@+id/tutor_first_name_edit_text"
+        android:layout_width="235dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="@+id/find_tutor_activityList_scroll"
+        app:layout_constraintTop_toBottomOf="@+id/find_tutor_activityList_scroll" />
+
+    <TextView
+        android:id="@+id/tutor_last_name_text_view"
+        android:layout_width="104dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="5dp"
+        android:text="@string/tutor_last_name_text_view"
+        app:layout_constraintEnd_toStartOf="@+id/tutor_last_name_edit_text"
+        app:layout_constraintStart_toStartOf="@+id/tutor_first_name_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/tutor_first_name_text_view" />
+
+    <EditText
+        android:id="@+id/tutor_last_name_edit_text"
+        android:layout_width="235dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="@+id/tutor_first_name_edit_text"
+        app:layout_constraintTop_toBottomOf="@+id/tutor_first_name_edit_text" />
+
+    <TextView
+        android:id="@+id/tutor_tel_number_text_view"
+        android:layout_width="104dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="5dp"
+        android:text="@string/tutor_tel_number_text_view"
+        app:layout_constraintEnd_toStartOf="@+id/tutor_tel_number_edit_text"
+        app:layout_constraintStart_toStartOf="@+id/tutor_last_name_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/tutor_last_name_text_view" />
+
+    <EditText
+        android:id="@+id/tutor_tel_number_edit_text"
+        android:layout_width="235dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="@+id/tutor_last_name_edit_text"
+        app:layout_constraintTop_toBottomOf="@+id/tutor_last_name_edit_text" />
+
+    <TextView
+        android:id="@+id/tutor_hour_fees_text_view"
+        android:layout_width="104dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="5dp"
+        android:text="@string/tutor_hour_fees_text_view"
+        app:layout_constraintEnd_toStartOf="@+id/tutor_hour_fees_edit_text"
+        app:layout_constraintStart_toStartOf="@+id/tutor_tel_number_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/tutor_tel_number_text_view" />
+
+    <EditText
+        android:id="@+id/tutor_hour_fees_edit_text"
+        android:layout_width="235dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="@+id/tutor_tel_number_edit_text"
+        app:layout_constraintTop_toBottomOf="@+id/tutor_tel_number_edit_text" />
+
+    <TextView
+        android:id="@+id/tutor_experience_text_view"
+        android:layout_width="115dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="5dp"
+        android:text="@string/tutor_experience_text_view"
+        app:layout_constraintEnd_toStartOf="@+id/tutor_experience_edit_text"
+        app:layout_constraintStart_toStartOf="@+id/tutor_hour_fees_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/tutor_hour_fees_text_view" />
+
+    <EditText
+        android:id="@+id/tutor_experience_edit_text"
+        android:layout_width="235dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="@+id/tutor_hour_fees_edit_text"
+        app:layout_constraintTop_toBottomOf="@+id/tutor_hour_fees_edit_text" />
+
+    <Button
+        android:id="@+id/reserve_tutor_button"
+        android:layout_width="217dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/reserve_tutor_button"
+        app:layout_constraintEnd_toEndOf="@+id/search_tutor_button"
+        app:layout_constraintStart_toStartOf="@+id/search_tutor_button"
+        app:layout_constraintTop_toBottomOf="@+id/search_tutor_button" />
+
+    <Button
+        android:id="@+id/search_tutor_button"
+        android:layout_width="217dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/search_tutor_button"
+        app:layout_constraintEnd_toEndOf="@+id/tutor_experience_edit_text"
+        app:layout_constraintStart_toStartOf="@+id/tutor_experience_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/tutor_experience_edit_text" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

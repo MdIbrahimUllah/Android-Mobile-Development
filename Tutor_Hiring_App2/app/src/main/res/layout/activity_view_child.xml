@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewChildActivity">
+
+    <EditText
+        android:id="@+id/view_child_activity_child_fname_edit_text"
+        android:layout_width="246dp"
+        android:layout_height="52dp"
+        android:layout_marginEnd="32dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/view_child_activity_child_fname_edit_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.145" />
+
+    <LinearLayout
+        android:id="@+id/linearlayout1"
+        android:layout_width="272dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="@+id/view_child_activity_next_child_button"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/view_child_activity_next_child_button"
+        app:layout_constraintTop_toBottomOf="@+id/view_child_activity_next_child_button">
+
+        <Button
+            android:id="@+id/view_child_activity_update_child_button"
+            android:layout_width="136dp"
+            android:layout_height="match_parent"
+            android:text="@string/view_child_activity_update_child_button" />
+
+        <Button
+            android:id="@+id/view_child_activity_delete_child_button"
+            android:layout_width="136dp"
+            android:layout_height="match_parent"
+            android:text="@string/view_child_activity_delete_child_button" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/view_child_activityList_scroll"
+        android:layout_width="342dp"
+        android:layout_height="168dp"
+        android:layout_marginTop="32dp"
+        android:fillViewport="true"
+        app:layout_constraintEnd_toEndOf="@+id/view_child_activity_child_age_edit_text"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/view_child_activity_child_age_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/view_child_activity_child_age_edit_text">
+
+        <TextView
+            android:id="@+id/view_child_activity_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            tools:layout_editor_absoluteX="63dp"
+            tools:layout_editor_absoluteY="234dp" />
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/view_child_activity_next_child_button"
+        android:layout_width="272dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/view_child_activity_next_child_button"
+        app:layout_constraintEnd_toEndOf="@+id/view_child_activityList_scroll"
+        app:layout_constraintStart_toStartOf="@+id/view_child_activityList_scroll"
+        app:layout_constraintTop_toBottomOf="@+id/view_child_activityList_scroll" />
+
+    <EditText
+        android:id="@+id/view_child_activity_child_age_edit_text"
+        android:layout_width="246dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/view_child_activity_child_age_edit_text"
+        app:layout_constraintEnd_toEndOf="@+id/view_child_activity_child_lname_edit_text"
+        app:layout_constraintTop_toBottomOf="@+id/view_child_activity_child_lname_edit_text" />
+
+    <EditText
+        android:id="@+id/view_child_activity_child_lname_edit_text"
+        android:layout_width="246dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="12dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/view_child_activity_child_lname_edit_text"
+        app:layout_constraintEnd_toEndOf="@+id/view_child_activity_child_fname_edit_text"
+        app:layout_constraintTop_toBottomOf="@+id/view_child_activity_child_fname_edit_text" />
+
+    <TextView
+        android:id="@+id/view_child_activity_child_fname_text_view"
+        android:layout_width="87dp"
+        android:layout_height="48dp"
+        android:text="@string/view_child_activity_child_fname_text_view"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/view_child_activity_child_fname_edit_text"
+        app:layout_constraintHorizontal_bias="0.347"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.178" />
+
+    <TextView
+        android:id="@+id/view_child_activity_child_age_text_view"
+        android:layout_width="87dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/view_child_activity_child_age_text_view"
+        app:layout_constraintEnd_toStartOf="@+id/view_child_activity_child_age_edit_text"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/view_child_activity_child_lname_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/view_child_activity_child_lname_text_view" />
+
+    <TextView
+        android:id="@+id/view_child_activity_child_lname_text_view"
+        android:layout_width="87dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/view_child_activity_child_lname_text_view"
+        app:layout_constraintEnd_toStartOf="@+id/view_child_activity_child_lname_edit_text"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/view_child_activity_child_fname_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/view_child_activity_child_fname_text_view" />
+
+    <TextView
+        android:id="@+id/view_child_activity_msg_text_view"
+        android:layout_width="294dp"
+        android:layout_height="39dp"
+        android:text="@string/view_child_activity_msg_text_view"
+        android:textAlignment="center"
+        android:textColor="@color/teal_700"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.054" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

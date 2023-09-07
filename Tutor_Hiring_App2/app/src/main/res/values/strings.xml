@@ -1,0 +1,141 @@
+<resources>
+    <string name="app_name">Tutor_Hiring_App</string>
+
+    <!--    MainActivity    -->
+    <string name="welcome_text_view">Welcome To Tutor Hiring App.</string>
+    <string name="ideal_tutor_text_view">"An Ideal Tutor For Your Kids"</string>
+    <string name="new_text_view">New?</string>
+    <string name="register_as_text_view">Register As..</string>
+    <string name="parent_register_button">Parent</string>
+    <string name="tutor_register_button">Tutor</string>
+    <string name="already_a_member_text_view">Already A Member?</string>
+    <string name="manage_parent_button">Manage Parent</string>
+    <string name="manage_tutor_button">Manage Tutor</string>
+
+    <!--    ParentRegisterActivity  -->
+    <string name="parent_register_msg_text_view">Please Enter The Information To Register As A Parent</string>
+    <string name="parent_first_name_text_view">First Name</string>
+    <string name="parent_first_name_edit_text"></string>
+    <string name="parent_last_name_text_view">Last Name</string>
+    <string name="parent_last_name_edit_text"></string>
+    <string name="parent_civic_number_text_view">Civic Number</string>
+    <string name="parent_civic_number_edit_text"></string>
+    <string name="parent_street_name_text_view">Street Name</string>
+    <string name="parent_street_name_edit_text"></string>
+    <string name="parent_app_number_text_view">App.#</string>
+    <string name="parent_app_number_edit_text"></string>
+    <string name="parent_city_name_text_view">City Name</string>
+    <string name="parent_city_name_edit_text"></string>
+    <string name="parent_province_name_text_view">Province Name</string>
+    <string name="parent_province_name_edit_text"></string>
+    <string name="parent_postal_code_text_view">Postal Code</string>
+    <string name="parent_postal_code_edit_text"></string>
+    <string name="parent_country_name_text_view">Country Name</string>
+    <string name="parent_country_name_edit_text"></string>
+    <string name="parent_tel_number_text_view">Tel.#</string>
+    <string name="parent_tel_number_edit_text"></string>
+    <string name="parent_activity_register_button">Register</string>
+
+    <!--    TutorRegisterActivity   -->
+    <string name="tutor_register_msg_text_view">Please Enter The Information To Register As A Tutor</string>
+    <string name="tutor_first_name_text_view">First Name</string>
+    <string name="tutor_first_name_edit_text"></string>
+    <string name="tutor_last_name_text_view">Last Name</string>
+    <string name="tutor_last_name_edit_text"></string>
+    <string name="tutor_civic_number_text_view">Civic Number</string>
+    <string name="tutor_civic_number_edit_text"></string>
+    <string name="tutor_street_name_text_view">Street Name</string>
+    <string name="tutor_street_name_edit_text"></string>
+    <string name="tutor_app_number_text_view">App.#</string>
+    <string name="tutor_app_number_edit_text"></string>
+    <string name="tutor_city_name_text_view">City Name</string>
+    <string name="tutor_city_name_edit_text"></string>
+    <string name="tutor_province_name_text_view">Province Name</string>
+    <string name="tutor_province_name_edit_text"></string>
+    <string name="tutor_postal_code_text_view">Postal Code</string>
+    <string name="tutor_postal_code_edit_text"></string>
+    <string name="tutor_country_name_text_view">Country Name</string>
+    <string name="tutor_country_name_edit_text"></string>
+    <string name="tutor_tel_number_text_view">Tel.#</string>
+    <string name="tutor_tel_number_edit_text"></string>
+    <string name="tutor_subj_name_text_view">Subj. Name</string>
+    <string name="tutor_subj_name_edit_text"></string>
+    <string name="tutor_hour_fees_text_view">Hourly Fees</string>
+    <string name="tutor_hour_fees_edit_text"></string>
+    <string name="tutor_experience_text_view">Experience(Years)</string>
+    <string name="tutor_experience_edit_text"></string>
+    <string name="tutor_activity_register_button">Register</string>
+
+    <!--    ManageParentActivity    -->
+    <string name="manage_parent_activity_choose_text_view">Please Choose your Option</string>
+    <string name="find_tutor_button">Find tutor</string>
+    <string name="update_Parent_info_button">Update Parent Info.</string>
+    <string name="manage_child_button">Manage Child</string>
+
+    <!--    ManageTutorActivity -->
+    <string name="manage_tutor_activity_choose_text_view">Want To Update Profile ?</string>
+    <string name="update_tutor_info_button">Update Tutor Info.</string>
+    <string name="manage_tutor_activity_exit_button">Exit</string>
+
+    <!--    ManageChildFragment-->
+    <string name="add_child_button">add Child</string>
+    <string name="view_child_button">View Child</string>
+    <string name="update_child_button">Update Child</string>
+    <string name="delete_child_button">Delete Child</string>
+
+    <!--    AddChildActivity-->
+    <string name="add_child_activity_child_f_name_text_view">First Name</string>
+    <string name="add_child_activity_child_f_name_edit_text"></string>
+    <string name="add_child_activity_child_l_name_text_view">Last Name</string>
+    <string name="add_child_activity_child_l_name_edit_text"></string>
+    <string name="add_child_activity_child_age_text_view">Age</string>
+    <string name="add_child_activity_child_age_edit_text"></string>
+    <string name="add_child_activity_save_button">Save Record</string>
+
+    <!--    ViewChildActivity-->
+    <string name="view_child_activity_msg_text_view">Update Child Info. Except Last Name</string>
+    <string name="view_child_activity_child_fname_text_view">First Name</string>
+    <string name="view_child_activity_child_fname_edit_text"></string>
+    <string name="view_child_activity_child_lname_text_view">Last Name</string>
+    <string name="view_child_activity_child_lname_edit_text"></string>
+    <string name="view_child_activity_child_age_text_view">Age</string>
+    <string name="view_child_activity_child_age_edit_text"></string>
+    <string name="view_child_activity_text_view"></string>
+    <string name="view_child_activity_next_child_button">Next Child</string>
+    <string name="view_child_activity_update_child_button">Update Child</string>
+    <string name="view_child_activity_delete_child_button">Delete Child</string>
+
+    <!--    FindTutorActivity-->
+    <string name="find_tutor_activity_search_edit_text">Search...Teacher By Subject Name</string>
+    <string name="find_tutor_activity_text_view"></string>
+    <string name="search_tutor_button">Search</string>
+    <string name="reserve_tutor_button">Reserve Tutor</string>
+    <string name="title_activity_find_us_maps">FindUsMaps</string>
+
+    <!--    ParentUpdateInfo-->
+    <string name="parent_update_msg_text_view">Update Parent Info. except Last Name</string>
+    <string name="update_parent_info_update_button">Update</string>
+    <string name="update_parent_info_nextparent_button">Next Parent</string>
+
+    <!--    UpdateTutorInfo-->
+    <string name="tutor_update_msg_text_view">Update Tutor Info. except "Last Name"</string>
+    <string name="update_tutor_info_nextTutor_button">Next Tutor</string>
+    <string name="update_tutor_info_update_button">Update</string>
+
+    <!--    ConfirmParent-->
+    <string name="confirm_parent_msg_text_view">Please confirm the Parent</string>
+    <string name="confirm_parent_next_parent_button">Next Parent</string>
+    <string name="confirm_parent_confirm_button">Confirm</string>
+
+<!--    Payment-->
+    <string name="payment_thanks_text_view">Thank you for choosing Tutor Hiring App.</string>
+    <string name="payment_msg_text_view">Confirmation of Reservation</string>
+
+<!--    ContactUs-->
+    <string name="contact_us_msg_text_view">Find me... </string>
+    <string name="contact_us_name_text_view"></string>
+    <string name="contact_us_vanier_link_button">Visit Vanier College</string>
+    <string name="contact_us_github_link_button">Find me on GitHub</string>
+    <string name="contact_us_linkedin_link_button">Find me on LinkedIn</string>
+
+</resources>

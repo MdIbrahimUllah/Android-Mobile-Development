@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/search_tutor_item1"
+        android:title="Search Tutor"
+        android:icon="@drawable/search_icon"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/update_parent_info_item2"
+        android:title="Update Parent Info"/>
+
+    <item android:id="@+id/update_tutor_info_item3"
+        android:title="Update Tutor Info"/>
+
+    <item android:id="@+id/contact_developer_item4"
+        android:title="Contact Developer"/>
+
+    <item android:id="@+id/contact_developer_item5"
+        android:title="Contact Us"
+        android:icon="@drawable/contact_us_icon"
+        app:showAsAction="ifRoom"/>
+</menu>
