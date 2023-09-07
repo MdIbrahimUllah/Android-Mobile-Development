@@ -1,2 +1,2 @@
 # Android-Mobile-Development
-Tutor-Hiring-Application: Using Android Studio
+Tutor-Hiring-Application: Using Java and Android Studio IDE
